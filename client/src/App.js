@@ -1,13 +1,12 @@
-//import logo from './logo.svg';
-import './App.css';
-//import Nav from '.components/Nav';
+import Calendar from "./components/Calendar";
+//import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <p>Hello World!</p>
-      </header>
+      
+      <Calendar />
+    
     </div>
   );
 }
